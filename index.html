@@ -1,134 +1,49 @@
 <!DOCTYPE html>
+<!--Yaiza Fritis Calvo - DAW2 - Despliegue de Aplicaciones -->
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style type="text/css">
+    <title>Restaurante pizzería</title>
+    <link rel=StyleSheet href="css/css1.css">
 
-        @font-face{ 
-            font-family: 'caveat';
-            src: url('fonts/caveat.woff2');
-        }
-
-        .primera {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.5)), url("img/fondo1.jpg");
-            
-            margin: 0px auto;
-            height: 150px;
-            background-image: no-repeat;
-            background-image: fixed;
-            background-image: center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-
-            text-align: center;
-        }
-
-        .segunda {
-            height: 400px;
-        }
-
-        .tercera {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                    rgba(0, 0, 0, 0.5)), url("img/fondo2.jpg");
-            margin: 0px auto;
-            height: 170px;
-            background-image: no-repeat;
-            background-image: fixed;
-            background-image: center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-
-            text-align: center;
-            color: yellow;
-            
-            padding-top: 3px;
-
-        }
-
-        .logo {
-            width: 70px;
-            height: 30px;
-            margin-bottom: 15px;
-            margin-top: 15px;
-        }
-
-        .promocion {
-            width: 260px;
-            height: 60px;
-            text-align: center;
-            margin: 0px auto;
-            padding: 5px 5px 10px 5px;
-            background-color: rgb(13, 106, 102);
-            font-size: 10px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
-            color: white;
-            
-        }
-
-        .fotos1{
-            width: 300px;
-            height: 200px;
-            margin-left: 20px;
-        }
-        
-        .fotos2{
-            width: 150px;
-            height: 100px;
-            
-        }
-
-        .imagenes {
-
-            text-align: center;
-            float: right;
-
-        }
-
-    </style>
 </head>
 
 <body>
     <div class="primera">
-        <img class ="logo" src="img/logo-tatin.png"></img>
-        <div class = "promocion">
-            <p style="font-size: 8px;">PROMOCIÓN <br/>EN PEDIDOS A RECOGER:</p>
-            <p>POR CADA DOS PIZZAS. LLÉVATE OTRA DE REGALO O UNA BOTELLA DE LAMBRUSCO</p>
+        <img class="logo" src="img/logo-tatin.png"></img>
+        <div class="promocion">
+            <p style="font-size: 11px;">PROMOCIÓN <br />EN PEDIDOS A RECOGER:</p>
+            <p style="font-size: 12px;">POR CADA DOS PIZZAS. LLÉVATE OTRA DE REGALO O UNA BOTELLA DE LAMBRUSCO</p>
         </div>
 
     </div>
     <div class="segunda">
         <p style="color: rgb(13, 106, 102); text-align: center">Ven a probar la mejor pasta de Valladolid</p>
-        
-        <table style="margin: 0px auto;">
-            <tr>
-                <td ><b><p style="color: rgb(13, 106, 102); margin-top: 50px; text-align:left; padding-right: 200px">EL RESTAURANTE</p></b></td>
-                <td style="margin-left: 100px;">        
-                    <div class="imagenes">
-                        <p><img class="fotos1" src="img/tatin-01.jpg">
-                        <img class="fotos1" src="img/tatin-02.jpg"></p>
-                        <p><img class="fotos2" src="img/tatin-03.jpg">
-                        <img class="fotos2" src="img/tatin-04.jpg"></p>
-                    </div>
-                </td>
-                
-            </tr>
 
-        </table>
-        
+        <div class="left">
+            <b>
+                <p style="color: rgb(13, 106, 102); margin-top: 150px; text-align:left; margin-left: 135px;">
+                    EL RESTAURANTE
+                </p>
+            </b>
+        </div>
+
+        <div class="right">
+            <div class="imagenes">
+                <p><img class="fotos1" src="img/tatin-01.jpg">
+                    <img class="fotos1" src="img/tatin-02.jpg"></p>
+                <p><img class="fotos2" src="img/tatin-03.jpg">
+                    <img class="fotos2" src="img/tatin-04.jpg"></p>
+            </div>
+        </div>
+
     </div>
     <div class="tercera">
         <p style="font-family: caveat; font-size: 25px">"No existe plato desdeñado en la cocina cuando se realiza de manera auténtica"</p>
-        <img style="width: 30px; height: 30px; border-radius: 100%;" src="img/miguel-de-cervantes.jpg" >
-        <p style="font-size: 10px; font: small-caps serif;">MIGUEL DE CERVANTES</p>
+        <img style="width: 30px; height: 30px; border-radius: 100%;" src="img/miguel-de-cervantes.jpg">
+        <p style="font-size: 12px; font: small-caps serif;">MIGUEL DE CERVANTES</p>
     </div>
 </body>
 
